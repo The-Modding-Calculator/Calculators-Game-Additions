@@ -9,3 +9,5 @@ If your using multipul patches just copy paste them all into one file, if your u
 I've inclided a dummey serial at the begining of each cheats.db becase I couldn't get it to list the cheats without atleast two serials in the file.
 
 The GB version will have all the patchs combinded into a single file for ease of use, but here I've left them sperate for better orginsation.
+
+The CWCheat plugin have a weird quirk where they only read so many line per patch. The work around is to split up your patch about every 30 lines. So I've also included a simple python script that splits up the patchs and also corrects the size of the address if it's too big, since CWCheat is alot a little fussey about that.
